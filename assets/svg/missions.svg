@@ -1,17 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Current missions">
-  <rect width="900" height="260" fill="#030308"/>
-  <rect x="8" y="8" width="884" height="244" fill="#0a0a14" stroke="#00ffff" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Current missions">
+  <rect width="900" height="280" fill="#030308"/>
+  <rect x="8" y="8" width="884" height="264" fill="#0a0a14" stroke="#00ffff" stroke-width="3"/>
   <text x="36" y="48" fill="#ffe600" font-family="monospace" font-size="16" letter-spacing="2">CURRENT MISSIONS</text>
   <line x1="36" y1="60" x2="864" y2="60" stroke="#ff00ff" stroke-width="2" stroke-dasharray="3 4"/>
 
   <text x="36" y="95" fill="#ff00ff" font-family="monospace" font-size="13">[MAIN QUEST]</text>
   <text x="36" y="118" fill="#00ffff" font-family="monospace" font-size="15">BECOME A PROFESSIONAL ML / MLOPS ENGINEER</text>
-  <text x="36" y="142" fill="#c8f0ff" font-family="monospace" font-size="12">STATUS: ˆˆˆˆˆˆˆˆˆˆˆˆˆˆ‘‘‘‘ 80%</text>
-  <rect x="36" y="152" width="400" height="12" fill="#05050c" stroke="#00ffff" stroke-width="2"/>
-  <rect x="38" y="154" width="316" height="8" fill="#00ff88"/>
+  <text x="36" y="145" fill="#c8f0ff" font-family="monospace" font-size="12">STATUS</text>
+  <rect x="110" y="134" width="400" height="14" fill="#05050c" stroke="#00ffff" stroke-width="2"/>
+  <rect x="112" y="136" width="316" height="10" fill="#00ff88"/>
+  <text x="530" y="145" fill="#00ff88" font-family="monospace" font-size="12">80%</text>
 
-  <text x="36" y="195" fill="#ffe600" font-family="monospace" font-size="12">01 // MACHINE LEARNING     ACTIVE</text>
-  <text x="36" y="218" fill="#ffe600" font-family="monospace" font-size="12">02 // MLOps                ACTIVE</text>
-  <text x="36" y="241" fill="#ff00ff" font-family="monospace" font-size="12">03 // CLOUD                LOCKED</text>
-  <text x="480" y="195" fill="#ffe600" font-family="monospace" font-size="12">04 // AI ENGINEERING       ACTIVE</text>
+  <text x="36" y="190" fill="#ffe600" font-family="monospace" font-size="12">01 // MACHINE LEARNING</text>
+  <text x="320" y="190" fill="#00ff88" font-family="monospace" font-size="12">ACTIVE</text>
+
+  <text x="36" y="215" fill="#ffe600" font-family="monospace" font-size="12">02 // MLOps</text>
+  <text x="320" y="215" fill="#00ff88" font-family="monospace" font-size="12">ACTIVE</text>
+
+  <text x="36" y="240" fill="#ffe600" font-family="monospace" font-size="12">03 // CLOUD</text>
+  <text x="320" y="240" fill="#ff00ff" font-family="monospace" font-size="12">LOCKED</text>
+
+  <text x="480" y="190" fill="#ffe600" font-family="monospace" font-size="12">04 // AI ENGINEERING</text>
+  <text x="760" y="190" fill="#00ff88" font-family="monospace" font-size="12">ACTIVE</text>
 </svg>

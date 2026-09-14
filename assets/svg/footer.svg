@@ -6,5 +6,5 @@
     PRESS START
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </text>
-  <text x="860" y="48" text-anchor="end" fill="#ffe600" font-family="monospace" font-size="12">© 2026 GABRIEL DRUMOND</text>
+  <text x="860" y="48" text-anchor="end" fill="#ffe600" font-family="monospace" font-size="12">(c) 2026 GABRIEL DRUMOND</text>
 </svg>

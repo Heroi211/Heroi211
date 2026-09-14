@@ -28,7 +28,7 @@
   <text x="220" y="205" fill="#00ff88" font-family="monospace" font-size="24" font-weight="700">90</text>
 
   <text x="80" y="238" fill="#ff00ff" font-family="monospace" font-size="13">XP</text>
-  <text x="220" y="238" fill="#00ff88" font-family="monospace" font-size="14">??????????????????</text>
+  <text x="220" y="238" fill="#00ff88" font-family="monospace" font-size="14">################--</text>
   <rect x="220" y="248" width="400" height="12" fill="#05050c" stroke="#00ffff" stroke-width="2"/>
   <rect x="222" y="250" width="336" height="8" fill="#00ff88"/>
 </svg>
