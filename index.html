@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gabriel Drumond // Arcade</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/arcade.css">
+</head>
+
+<body>
+
+    <!-- CRT overlay: scanlines + vignette + flicker -->
+    <div class="crt-overlay" aria-hidden="true"></div>
+
+    <main class="arcade">
+
+        <!-- HEADER -->
+        <header class="arcade-header">
+
+            <div class="system-status">
+                <span class="status-light" aria-hidden="true">●</span>
+                SYSTEM ONLINE
+            </div>
+
+            <h1>GABRIEL DRUMOND</h1>
+
+            <p>
+                SOFTWARE ENGINEER // MACHINE LEARNING // MLOps
+            </p>
+
+            <div class="insert-coin">
+                INSERT COIN
+            </div>
+
+        </header>
+
+
+        <!-- PLAYER + LEVEL -->
+        <section class="top-grid">
+
+            <!-- PLAYER CARD -->
+            <article class="panel player-card">
+
+                <div class="panel-title player-card__banner">
+                    <span class="player-tag">PLAYER 1</span>
+                    <span class="player-ready blink">READY</span>
+                </div>
+
+                <div class="player-content">
+
+                    <div class="avatar-frame">
+                        <div class="avatar-select-label">SELECT</div>
+                        <div class="avatar" aria-label="Gabriel Drumond pixel avatar">
+                            <img
+                                src="assets/img/player.png"
+                                alt="Pixel-art avatar — Python Engineer character"
+                                width="160"
+                                height="160"
+                            >
+                        </div>
+                        <div class="avatar-corners" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="player-data">
+
+                        <p class="stat-row">
+                            <span class="stat-label">NAME</span>
+                            <span class="stat-value name">GABRIEL DRUMOND</span>
+                        </p>
+
+                        <p class="stat-row">
+                            <span class="stat-label">CLASS</span>
+                            <span class="stat-value class">PYTHON ENGINEER</span>
+                        </p>
+
+                        <p class="stat-row unlock-row">
+                            <span class="stat-label">UNLOCK</span>
+                            <span class="stat-value unlock">
+                                ML ENGINEER
+                                <span class="loading-badge blink">LOADING...</span>
+                            </span>
+                        </p>
+
+                        <p class="stat-row">
+                            <span class="stat-label">LEVEL</span>
+                            <span class="stat-value level">90</span>
+                        </p>
+
+                        <div class="xp-block">
+                            <div class="xp-header">
+                                <span class="stat-label">XP</span>
+                                <span class="xp-text" aria-hidden="true">████████████████░░</span>
+                            </div>
+                            <div class="xp-container" role="meter" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="XP 85%">
+                                <div class="xp-bar"></div>
+                            </div>
+                        </div>
+
+                        <p class="stat-row high-score-row">
+                            <span class="stat-label">HIGH SCORE</span>
+                            <span class="stat-value score">999999</span>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CURRENT QUEST -->
+            <article class="panel quest">
+
+                <div class="panel-title">
+                    CURRENT QUEST
+                </div>
+
+                <h2>LEVEL UP</h2>
+
+                <p>
+                    BUILD BETTER SYSTEMS.
+                </p>
+
+                <p>
+                    MASTER MACHINE LEARNING.
+                </p>
+
+                <p>
+                    BECOME AN MLOps ENGINEER.
+                </p>
+
+                <div class="quest-progress">
+
+                    <span>MISSION PROGRESS</span>
+
+                    <div class="progress">
+                        <div style="width: 75%;"></div>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="panel skills">
+
+            <div class="panel-title">
+                POWER UPS // TECH STACK
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <span>PYTHON</span>
+                    <div class="progress">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>MACHINE LEARNING</span>
+                    <div class="progress">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>MLOps</span>
+                    <div class="progress">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>DOCKER</span>
+                    <div class="progress">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>AWS</span>
+                    <div class="progress">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>AIRFLOW / MLFLOW</span>
+                    <div class="progress">
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MISSIONS + STATS -->
+        <section class="middle-grid">
+
+            <article class="panel">
+
+                <div class="panel-title">
+                    MISSIONS
+                </div>
+
+                <div class="mission">
+                    <span>01 // MACHINE LEARNING</span>
+                    <strong>ACTIVE</strong>
+                </div>
+
+                <div class="mission">
+                    <span>02 // MLOps</span>
+                    <strong>ACTIVE</strong>
+                </div>
+
+                <div class="mission">
+                    <span>03 // CLOUD</span>
+                    <strong class="locked">LOCKED</strong>
+                </div>
+
+                <div class="mission">
+                    <span>04 // AI ENGINEERING</span>
+                    <strong>ACTIVE</strong>
+                </div>
+
+            </article>
+
+
+            <article class="panel">
+
+                <div class="panel-title">
+                    HIGH SCORE
+                </div>
+
+                <div class="stats">
+
+                    <div>
+                        <strong>10+</strong>
+                        <span>YEARS</span>
+                    </div>
+
+                    <div>
+                        <strong>PY</strong>
+                        <span>CLASS</span>
+                    </div>
+
+                    <div>
+                        <strong>ML</strong>
+                        <span>LOADING</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="panel projects">
+
+            <div class="panel-title">
+                SELECT YOUR PROJECT
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project">
+                    <span class="project-number">01</span>
+                    <h3>CHURN ATTACK</h3>
+                    <p>MACHINE LEARNING</p>
+                    <button type="button">PLAY</button>
+                </article>
+
+                <article class="project">
+                    <span class="project-number">02</span>
+                    <h3>MLOps RUN</h3>
+                    <p>MLOps / PIPELINES</p>
+                    <button type="button">PLAY</button>
+                </article>
+
+                <article class="project">
+                    <span class="project-number">03</span>
+                    <h3>AI AGENTS</h3>
+                    <p>AI ENGINEERING</p>
+                    <button type="button">PLAY</button>
+                </article>
+
+                <article class="project">
+                    <span class="project-number">04</span>
+                    <h3>CLOUD QUEST</h3>
+                    <p>AWS / CLOUD</p>
+                    <button type="button">PLAY</button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <span>PLAYER 1 READY</span>
+
+            <span class="blink">
+                PRESS START
+            </span>
+
+            <span>© 2026 GABRIEL DRUMOND</span>
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

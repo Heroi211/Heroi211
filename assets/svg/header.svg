@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Gabriel Drumond Arcade Header">
+  <rect width="900" height="220" fill="#030308"/>
+  <rect x="8" y="8" width="884" height="204" fill="none" stroke="#00ffff" stroke-width="3"/>
+  <rect x="14" y="14" width="872" height="192" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="4 4" opacity="0.35"/>
+
+  <!-- corner ticks -->
+  <path d="M20 20 H40 M20 20 V40" stroke="#00ffff" stroke-width="3" fill="none"/>
+  <path d="M880 20 H860 M880 20 V40" stroke="#00ffff" stroke-width="3" fill="none"/>
+  <path d="M20 200 H40 M20 200 V180" stroke="#ff00ff" stroke-width="3" fill="none"/>
+  <path d="M880 200 H860 M880 200 V180" stroke="#ff00ff" stroke-width="3" fill="none"/>
+
+  <circle cx="36" cy="42" r="5" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="50" y="47" fill="#00ff88" font-family="monospace" font-size="14" letter-spacing="2">SYSTEM ONLINE</text>
+
+  <text x="450" y="100" text-anchor="middle" fill="#ffe600" font-family="monospace" font-size="36" font-weight="700" letter-spacing="4">GABRIEL DRUMOND</text>
+  <text x="450" y="130" text-anchor="middle" fill="#ff00ff" font-family="monospace" font-size="14" letter-spacing="2">SOFTWARE ENGINEER // MACHINE LEARNING // MLOps</text>
+
+  <rect x="355" y="155" width="190" height="34" fill="#120f00" stroke="#ffe600" stroke-width="2"/>
+  <text x="450" y="177" text-anchor="middle" fill="#ffe600" font-family="monospace" font-size="14" letter-spacing="2">
+    INSERT COIN
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+</svg>

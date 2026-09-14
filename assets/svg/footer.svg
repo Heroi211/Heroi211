@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80" role="img" aria-label="Footer">
+  <rect width="900" height="80" fill="#030308"/>
+  <rect x="8" y="8" width="884" height="64" fill="#0a0a14" stroke="#00ffff" stroke-width="2"/>
+  <text x="40" y="48" fill="#ffe600" font-family="monospace" font-size="12">PLAYER 1 READY</text>
+  <text x="450" y="48" text-anchor="middle" fill="#ffe600" font-family="monospace" font-size="12">
+    PRESS START
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+  <text x="860" y="48" text-anchor="end" fill="#ffe600" font-family="monospace" font-size="12">© 2026 GABRIEL DRUMOND</text>
+</svg>
