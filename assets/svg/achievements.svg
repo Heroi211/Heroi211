@@ -4,15 +4,15 @@
   <text x="36" y="48" fill="#ffe600" font-family="monospace" font-size="16" letter-spacing="2">ACHIEVEMENTS UNLOCKED</text>
   <line x1="36" y1="60" x2="864" y2="60" stroke="#ff00ff" stroke-width="2" stroke-dasharray="3 4"/>
 
-  <text x="36" y="95" fill="#ffe600" font-family="monospace" font-size="13"> CODE WARRIOR</text>
+  <text x="36" y="95" fill="#ffe600" font-family="monospace" font-size="13">* CODE WARRIOR</text>
   <text x="280" y="95" fill="#c8f0ff" font-family="monospace" font-size="12">10+ YEARS IN SOFTWARE</text>
 
-  <text x="36" y="125" fill="#ffe600" font-family="monospace" font-size="13"> ML INITIATED</text>
+  <text x="36" y="125" fill="#ffe600" font-family="monospace" font-size="13">* ML INITIATED</text>
   <text x="280" y="125" fill="#c8f0ff" font-family="monospace" font-size="12">ENTERED MACHINE LEARNING</text>
 
-  <text x="36" y="155" fill="#ffe600" font-family="monospace" font-size="13"> PIPELINE BUILDER</text>
+  <text x="36" y="155" fill="#ffe600" font-family="monospace" font-size="13">* PIPELINE BUILDER</text>
   <text x="280" y="155" fill="#c8f0ff" font-family="monospace" font-size="12">BUILT ML PIPELINES</text>
 
-  <text x="36" y="185" fill="#ffe600" font-family="monospace" font-size="13"> CLOUD PLAYER</text>
+  <text x="36" y="185" fill="#ffe600" font-family="monospace" font-size="13">* CLOUD PLAYER</text>
   <text x="280" y="185" fill="#c8f0ff" font-family="monospace" font-size="12">AWS EXPERIENCE</text>
 </svg>
